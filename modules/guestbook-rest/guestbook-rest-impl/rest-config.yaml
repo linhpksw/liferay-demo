@@ -1,0 +1,9 @@
+apiDir: "../guestbook-rest-api/src/main/java"
+apiPackagePath: "guestbook.rest"
+application:
+    baseURI: "/guestbook-rest"
+    className: "GuestbookRestApplication"
+    name: "GuestbookRest"
+author: "linhp"
+clientDir: "../guestbook-rest-client/src/main/java"
+testDir: "../guestbook-rest-test/src/testIntegration/java"

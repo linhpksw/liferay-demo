@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":modules:guestbook:guestbook-service:testIntegration" external.linked.project.path="$MODULE_DIR$/../../../../../modules/guestbook/guestbook-service" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="guestbook" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../modules/guestbook/guestbook-service/build/classes/java/testIntegration" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../modules/guestbook/guestbook-service/src/testIntegration" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="liferay-demo.modules.guestbook.guestbook-api.main" />
+    <orderEntry type="module" module-name="liferay-demo.modules.guestbook.guestbook-service.main" />
+  </component>
+</module>

@@ -1,0 +1,144 @@
+/* General container for all screens */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the view.jsp */
+.book-detail-view {
+  margin-top: 20px;
+}
+
+.book-detail-view .action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the search form */
+.book-detail-view .action-buttons .search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add spacing between the input and button */
+}
+
+.book-detail-view .action-buttons .search-form input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.book-detail-view .action-buttons .search-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.book-detail-view .action-buttons .search-form button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.book-detail-view .action-buttons .search-form button:hover {
+  background-color: #218838;
+}
+
+/* Styles for the "Add New Book" button */
+.book-detail-view .action-buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.book-detail-view .action-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the edit.jsp */
+.book-detail-edit {
+  margin-top: 20px;
+}
+
+.book-detail-edit form {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-detail-edit label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.book-detail-edit input,
+.book-detail-edit textarea {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-detail-edit button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.book-detail-edit button:hover {
+  background-color: #218838;
+}
+
+/* Styles for the add.jsp */
+.book-detail-add {
+  margin-top: 20px;
+}
+
+.book-detail-add form {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-detail-add label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.book-detail-add input,
+.book-detail-add textarea {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-detail-add button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.book-detail-add button:hover {
+  background-color: #0056b3;
+}

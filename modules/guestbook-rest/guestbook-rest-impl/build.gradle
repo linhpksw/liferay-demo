@@ -1,0 +1,12 @@
+dependencies {
+    api project(":modules:guestbook-rest:guestbook-rest-api")
+
+    api group: "com.liferay.portal", name: "release.dxp.api"
+
+    compileOnly group: "com.liferay", name: "com.liferay.portal.vulcan.api", version: "44.1.0"
+    compileOnly group: "jakarta.ws.rs", name: "jakarta.ws.rs-api", version: "4.0.0"
+    compileOnly project(":modules:guestbook:guestbook-api")
+    compileOnly project(":modules:guestbook:guestbook-service")
+}
+
+group = "guestbook.rest"

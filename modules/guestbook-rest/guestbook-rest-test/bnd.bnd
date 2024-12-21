@@ -1,0 +1,5 @@
+Bundle-Name: guestbook-rest-test
+Bundle-SymbolicName: guestbook.rest.test
+Bundle-Version: 1.0.0
+-includeresource: guestbook.rest.client.jar=../guestbook-rest-client/build/libs/guestbook.rest.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

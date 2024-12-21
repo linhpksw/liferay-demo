@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="guestbook.model.BookDetail">
+		<field name="mvccVersion" type="long" />
+		<field name="uuid" type="String" />
+		<field name="bookId" type="long" />
+		<field name="title" type="String" />
+		<field name="author" type="String" />
+		<field name="description" type="String" />
+		<field name="isbn" type="String" />
+		<field name="status" type="int" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+	<model name="guestbook.model.BorrowEntry">
+		<field name="mvccVersion" type="long" />
+		<field name="uuid" type="String" />
+		<field name="entryId" type="long" />
+		<field name="bookId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="borrowDate" type="Date" />
+		<field name="expectedReturnDate" type="Date" />
+		<field name="actualReturnDate" type="Date" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+	</model>
+</model-hints>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.ws.rs:jakarta.ws.rs-api:4.0.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="jakarta.ws.rs" artifactId="jakarta.ws.rs-api" version="4.0.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.ws.rs/jakarta.ws.rs-api/4.0.0/c27a67f84ca491efcb3fa68f4df926e8a110069e/jakarta.ws.rs-api-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

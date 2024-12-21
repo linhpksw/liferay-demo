@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.liferay.portal:release.dxp.api:2024.q3.12" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.liferay.portal" artifactId="release.dxp.api" version="2024.q3.12" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.portal/release.dxp.api/2024.q3.12/4584196bc956a9f0fc9e65c550ecf72fcbecdc91/release.dxp.api-2024.q3.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay.portal/release.dxp.api/2024.q3.12/edecf8cd3d181cdf73a9809e834c29083c8fec6b/release.dxp.api-2024.q3.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
